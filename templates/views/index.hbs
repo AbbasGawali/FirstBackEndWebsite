@@ -1,0 +1,66 @@
+{{>header}}
+<title>Dynamic Website</title>
+</head>
+
+<body style="background-color:#fffdff;">
+
+  {{>navbar}}
+
+  {{!-- hero section starts --}}
+  <div class="container-fluid mt-5">
+    <div class="row">
+      <div class="col-md-10 col-12 mx-auto">
+        <div class="row">
+          <div
+            class="col-md-6 col-12 hero-text order-md-0 order-1 d-flex justify-content-center align-items-start flex-column">
+            <h1 class="n2">We Will Help You To</h1>
+            <h1 class="n2 n3">Grow Your Business</h1>
+            <p>We are a Team of <span class="bold-style">Professional Developers </span></p>
+            <button class="btn-style hero-btn">Read More</button>
+          </div>
+          {{!-- right side --}}
+          <div class="col-md-6 col-12 hero-text order-md-1 order-0">
+            <figure>
+              {{!-- <img src="/public/img/menu-6.png" alt="Hero Section Image"> --}}
+              <div class="imgs">
+                <img src="img/grow.gif" alt="">
+              </div>
+            </figure>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  {{!-- hero section ends --}}
+
+  {{!-- about us section starts --}}
+  {{>about}}
+  {{!-- about us section ends --}}
+
+  {{!-- servicess section starts --}}
+  {{>services}}
+  {{!-- servicess section ends --}}
+
+  {{!-- gmap section starts --}}
+  {{>gmap}}
+
+  {{!-- gmap section ends --}}
+
+
+  {{!-- contact section starts --}}
+  {{>contact}}
+
+  {{!-- contact section ends --}}
+
+  {{!-- footer section starts --}}
+
+  {{>footer}}
+
+  {{!-- footer section ends --}}
+
+  <script src="../jq/jquery.js" type="text/javascript"></script>
+  <script src="../js/bootstrap.js" type="text/javascript"></script>
+</body>
+
+</html>

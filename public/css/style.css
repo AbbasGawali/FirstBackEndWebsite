@@ -1,0 +1,279 @@
+@import url("https://use.typekit.net/byq1ugp.css");
+
+* {
+    font-family: poiret-one, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.conts{
+    margin-top: 70px;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+#logo {
+    color: #fd5c63;
+    text-transform: capitalize;
+}
+
+.navbar-style {
+    position: fixed;
+    /* background-color: #82efff1c; */
+    box-shadow: 0 0 25px 0 rgb(46, 37, 37);
+    background: linear-gradient(-45deg, #f67944 50%, #44a2f6 50%);
+    border-radius: 8px;
+}
+
+.coole {
+    padding: 2px 59px;
+}
+
+.hero-btn {
+    outline: none;
+    border: none;
+    border-radius: 0px;
+    padding: 7px 17px;
+    color: #fd5c63;
+    background-color: #fff;
+    border: 2px solid #fd5c63;
+}
+
+.hero-btn:hover {
+
+    background-color: #fd5c63;
+    color: #fff;
+}
+
+.n2 {
+    font-size: 3.0rem;
+    /* line-height: 0.9; */
+    text-shadow: 5px 4px 11px rgba(0, 0, 0, 0.26);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.n3 {
+    color: #3854b9;
+    text-shadow: 5px 4px 11px rgb(0, 90, 235);
+    /* text-shadow: -4px 7px 5px rgb(0 90 235); */
+
+}
+
+.abh {
+    color: #fd5c63;
+    font-size: 2.5rem;
+}
+
+.abp {
+    letter-spacing: 2.4px;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.bold-style {
+    color: #464d7b;
+}
+
+.box {
+    width: 400px;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 5px 4px 11px rgba(0, 0, 0, 0.26);
+}
+
+.box:hover {
+    box-shadow: 0 0 25px 0 rgb(46, 37, 37);
+    background: linear-gradient(-45deg, #5035ec 0%, #44a2f6 50%);
+    cursor: pointer;
+
+}
+
+.icons {
+    transform: translateY(-40px);
+    margin-top: 50px;
+}
+
+.con {
+    transform: translateY(-26px);
+    padding: 4px;
+}
+
+
+.speedup:hover {
+    /* background: linear-gradient(-45deg, #ffae3c 0%, #f33474 50%); */
+    background: linear-gradient(-45deg, #ffae3c 50%, #f33474 50%);
+}
+
+.privacy:hover {
+    background: linear-gradient(-45deg, #5035ec 0%, #44a2f6 50%);
+}
+
+.backup:hover {
+    background: linear-gradient(-45deg, #fd7f30 0%, #fdb642 50%);
+}
+
+.ssl:hover {
+    background: linear-gradient(-45deg, #3215d4 0%, #6ecffc 50%);
+}
+
+.database:hover {
+    background: linear-gradient(-45deg, #36e236 0%, #00d7f8 50%);
+}
+
+.gmaps {
+    margin: 0 40px;
+    margin-top: 50px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.pad {
+    margin-top: 15px;
+}
+.pp{
+    margin-bottom: 10px;
+}
+
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active {
+    outline: 0px !important;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+}
+.imgs img{
+    width: 500px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+footer{
+    /* text-align: center; */
+    width: 100%;
+    display: grid;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+    color: #F49F1C;
+    background-color: #030E4F;
+}
+/* 
+.ic{
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    background-color: #44a2f6;
+}
+.fl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+@media screen and (max-width:540px) {}
+
+
+
+@media screen and (max-width:1530px) {
+    .box {
+        width: 330px;
+    }
+
+}
+
+
+@media screen and (max-width:1240px) {
+    .con p {
+        font-size: 15px;
+    }
+
+    .con h4 {
+        font-size: 1.1rem;
+    }
+
+    .box {
+        width: 268px;
+    }
+    .imgs img {
+        width: 420px;
+    }
+}
+
+
+@media screen and (max-width:1000px){
+
+    .box {
+        width: 26.6vw;
+    }
+    .imgs img{
+        width: 319px;
+    }
+
+}
+
+
+
+@media screen and (max-width:767px){
+    
+
+    .box {
+        width: 58.6vw;
+        margin-top: 71px;
+    }
+    .res{
+        display: grid;
+        justify-content: center;
+        align-content: center;
+    }
+    .icons {
+        transform: translateY(-69px);
+        margin-top: 31px;
+    }
+    .imgs{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width:525) {
+    .imgs img{
+        width: 280px;
+    }
+    figure img{
+        width: 280px;
+    }
+}
+
+
+
+@media (max-width:430px){
+    .imgs img{
+        width:200px;
+    }
+    .n2{
+        font-size: 2rem;
+    }
+}
